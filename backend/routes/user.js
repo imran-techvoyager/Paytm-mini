@@ -42,7 +42,7 @@ router.post('/signup', (req, res) => {
     }
     return res.json({
         message: 'User created successfully',
-        token
+        token: token
     });
 });
 
